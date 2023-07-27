@@ -1,6 +1,5 @@
 ---
 import "../../styles/main.min.css";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 ---
@@ -39,7 +38,7 @@ import Footer from "../components/Footer";
   </head>
   <body>
     <header class="fixed left-0 px-8 w-full z-40">
-      <Header />
+      <Header client:only />
     </header>
 
     <main class="m-auto max-w-6xl px-8">
@@ -50,4 +49,4 @@ import Footer from "../components/Footer";
       <Footer client:load />
     </footer>
   </body>
-</html>../components/Footer.tsx
+</html>

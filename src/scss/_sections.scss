@@ -1,12 +1,15 @@
 nav {
   font-size: 0.9rem;
+  @media (max-width: 980px) {
+    font-size: 0.75rem;
+  }
 }
 
 .underline-main {
   text-underline-offset: 0.5rem;
   text-decoration-thickness: 2px !important;
-  text-decoration-color: $color-primary !important;
+  text-decoration-color: var(--color-primary) !important;
   text-decoration: wavy underline;
   text-decoration-style: wavy;
-  -moz-text-decoration-color: $color-primary;
+  -moz-text-decoration-color: var(--color-primary);
 }

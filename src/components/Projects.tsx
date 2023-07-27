@@ -8,12 +8,12 @@ const Projects = () => {
       <div className="grid lg:grid-cols-3 gap-x-16 gap-y-10">
         {projects.map((project) => (
           <article key={project.id}>
-            <div className="relative rounded-lg overflow-hidden mb-4">
+            <a href={project.url} target="_blank" rel="noopener noreferrer" className="relative rounded-lg overflow-hidden mb-4 block">
               <div className="absolute w-full h-full opacity-0 hover:opacity-100 hover:backdrop-blur-md z-10 cursor-pointer transition-all text-primary flex items-center justify-center text-xl pt-8 hover:p-0">
                 <Rocket />
               </div>
-              <img src={project.image} alt="Project" className="w-full object-center object-cover aspect-video opacity-75" />
-            </div>
+              <img src={project.image} alt={project.title} className="w-full object-center object-cover aspect-video opacity-75" />
+            </a>
 
             <div>
               <h4 className="text-xl mb-4 underline-main">{project.title}</h4>
