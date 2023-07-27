@@ -1,0 +1,52 @@
+---
+import "../../styles/main.min.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Mariano Arias</title>
+    <meta property="og:url" content="" />
+    <meta property="og:image" content=" " />
+    <meta property="og:image:alt" content="Mariano Arias" />
+    <link rel="canonical" href="" />
+    <meta name="description" content="" />
+    <meta name="title" content="Mariano Arias" />
+    <meta property="og:title" content="Mariano Arias" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mariano Arias" />
+    <meta name="theme-color" content="#000" />
+    <meta name="msapplication-TileColor" content="#000" />
+    <meta name="msapplication-TileImage" content="" />
+    <meta name="application-name" content="Mariano Arias" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="author" content="Mariano Arias" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700;900&family=Manrope&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="fixed w-full">
+      <Header />
+    </header>
+
+    <main class="m-auto max-w-6xl px-8 pb-20">
+      <slot />
+    </main>
+
+    <footer class="">
+      <Footer />
+    </footer>
+  </body>
+</html>
