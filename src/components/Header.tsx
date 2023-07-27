@@ -19,7 +19,7 @@ const Header = () => {
       <div className="">
         <nav className="text-primary font-secondary flex gap-x-4 lg:gap-x-16">
           {nav.map((item) => (
-            <a href={item.path} key={item.id} className="scroll uppercase underline-offset-4 decoration-2 decoration-wavy ">
+            <a href={item.path} key={item.id} className="scroll uppercase underline-offset-4 decoration-2">
               {item.title}
             </a>
           ))}
