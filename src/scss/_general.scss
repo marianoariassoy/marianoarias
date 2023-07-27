@@ -13,10 +13,17 @@ body {
   // }
 }
 
-// a {
-//   color: inherit;
-// }
-
+a,
+.underline {
+  color: $color-primary !important;
+  text-decoration: underline !important;
+  font-family: inherit;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 2px !important;
+  &:hover {
+    text-decoration: wavy underline !important;
+  }
+}
 .font-secondary {
   font-family: "Lexend", sans-serif;
 }
@@ -30,4 +37,14 @@ body {
 
 .bg-primary {
   background-color: $color-primary;
+}
+
+svg {
+  fill: currentColor;
+  polyline {
+    stroke: currentColor;
+  }
+  line {
+    stroke: currentColor;
+  }
 }

@@ -1,4 +1,16 @@
-<section class="h-screen flex justify-center flex-col">
-  <h1 class="font-secondary font-black text-7xl mb-4">Hello, I am <span class="text-primary">Mariano.</span></h1>
-  <h2 class="text-3xl">Fullstack Web Developer - JavaScript - Student</h2>
+---
+import { Down } from "../icons/icons";
+---
+
+<section class="h-screen flex items-center" id="hero">
+  <div>
+    <h1 class="font-secondary font-black text-6xl lg:text-7xl mb-4">Hello, I am <span class="text-primary">Mariano.</span></h1>
+    <h2 class="text-3xl">Fullstack Web Developer - JavaScript - Student</h2>
+  </div>
+
+  <div class="absolute bottom-8 left-0 right-0 flex justify-center">
+    <a href="#about" class="scroll h-12 w-12 text-primary text-3xl flex items-center justify-center rounded-full hover:text-black">
+      <Down />
+    </a>
+  </div>
 </section>

@@ -1,7 +1,8 @@
 ---
 import "../../styles/main.min.css";
+
 import Header from "../components/Header";
-import Footer from "../components/Footer.astro";
+import Footer from "../components/Footer";
 ---
 
 <!DOCTYPE html>
@@ -37,16 +38,16 @@ import Footer from "../components/Footer.astro";
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700;900&family=Manrope&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="fixed w-full">
+    <header class="fixed left-0 px-8 w-full z-40">
       <Header />
     </header>
 
-    <main class="m-auto max-w-6xl px-8 pb-20">
+    <main class="m-auto max-w-6xl px-8">
       <slot />
     </main>
 
-    <footer class="">
-      <Footer />
+    <footer class="m-auto max-w-6xl px-8">
+      <Footer client:load />
     </footer>
   </body>
-</html>
+</html>../components/Footer.tsx
