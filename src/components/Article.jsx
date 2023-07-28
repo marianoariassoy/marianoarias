@@ -32,7 +32,7 @@ const Article = ({ project }) => {
             ))}
           </div>
           <div className="flex gap-x-2">
-            <span>Backend</span>
+            {project.backend.length > 0 && <span>Backend</span>}
             {project.backend.map((item) => (
               <span key={item} className="underline">
                 {item}

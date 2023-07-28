@@ -37,6 +37,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="transition-all hover:blur-sm"
+            aria-label="Github"
           >
             <Github />
           </a>
@@ -45,6 +46,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="transition-all hover:blur-sm"
+            aria-label="Linkedin"
           >
             <Linkedin />
           </a>

@@ -10,7 +10,7 @@ export const projects = [
     url: "https://estudiofeo-2.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Mite Galería",
     description:
       "Espacio de arte dedicado a la difusión de artistas tanto noveles como consagrados. Desde 2008 presenta exhibiciones de forma continua",
@@ -20,7 +20,7 @@ export const projects = [
     url: "https://mite-bay.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Wichay",
     description:
       "Empresa jujeña dedicada al desarrollo y construcción de obras civiles dentro de los sectores público y privado.",
@@ -28,6 +28,37 @@ export const projects = [
     backend: ["PHP", "MySql"],
     image: "./images/wichay.webp",
     url: "https://wichay.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Palmares Housing",
+    description:
+      "Mini complejo turístico que fusiona el estilo colonial con el moderno que ofrece una estadía plancentera. Ubicado en Cerrillos, Salta, Argentina.",
+    frontend: ["React", "TypeScript", "Tailwind"],
+    backend: ["PHP", "MySql"],
+    image: "./images/palmares.webp",
+    url: "http://palmareshousing.com.ar/",
+  },
+  {
+    id: 5,
+    title: "Rica Constructora",
+    description:
+      "Constructora con más de 35 proyectos entregados en tiempo y forma, eligiendo cuidadosamente las mejores ubicaciones de la Ciudad de Salta.",
+    frontend: ["React", "JavaScript", "Tailwind"],
+    backend: ["PHP", "MySql"],
+    image: "./images/rica.webp",
+    url: "https://riicaconstructora.vercel.app/",
+  },
+
+  {
+    id: 6,
+    title: "Premios en Alto",
+    description:
+      "Ruleta para promoción en shopings. Se puede configurar la cantidad de premios, el tiempo de duración y el número de participaciones.",
+    frontend: ["Typescript", "CSS"],
+    backend: [],
+    image: "./images/ruleta.webp",
+    url: "https://ruleta-beige.vercel.app/",
   },
 ];
 
@@ -78,7 +109,7 @@ export const links = [
   {
     id: 5,
     title: "Instagram",
-    url: "https://www.instagram.com/marianoarias.soy",
+    url: "https://www.instagram.com/marianoarias.js",
   },
   {
     id: 6,
@@ -88,7 +119,7 @@ export const links = [
   {
     id: 7,
     title: "CV",
-    url: "",
+    url: "https://www.linkedin.com/in/marianoariassoy",
   },
   {
     id: 8,
