@@ -10,7 +10,7 @@ const scroll = () => {
     const targetId = this.getAttribute("href");
     const targetElement = document.querySelector(targetId);
     window.scrollTo({
-      top: targetElement.offsetTop - 60,
+      top: targetElement.offsetTop - 50,
       behavior: "smooth",
     });
   }

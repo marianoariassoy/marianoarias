@@ -6,7 +6,7 @@ export const projects = [
       "FEO es una plataforma de fomento, formación, exhibición y comercialización de pequeñas y grandes marcas nacionales e internacionales.",
     frontend: ["React", "JavaScript", "Tailwind"],
     backend: ["PHP", "MySql"],
-    image: "./images/feo-2.jpg",
+    image: "./images/feo.webp",
     url: "https://estudiofeo-2.vercel.app/",
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
       "Espacio de arte dedicado a la difusión de artistas tanto noveles como consagrados. Desde 2008 presenta exhibiciones de forma continua",
     frontend: ["Next.js", "TypeScript", "Tailwind"],
     backend: ["PHP", "MySql"],
-    image: "./images/mite.jpg",
+    image: "./images/mite.webp",
     url: "https://mite-bay.vercel.app/",
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
       "Empresa jujeña dedicada al desarrollo y construcción de obras civiles dentro de los sectores público y privado.",
     frontend: ["React", "TypeScript", "Tailwind"],
     backend: ["PHP", "MySql"],
-    image: "./images/wichay.jpg",
+    image: "./images/wichay.webp",
     url: "https://wichay.vercel.app/",
   },
 ];
