@@ -13,6 +13,8 @@ const Article = ({ project }) => {
           <Rocket />
         </div>
         <img
+          width="330"
+          height="190"
           src={project.image}
           alt={project.title}
           className="w-full object-center object-cover aspect-video opacity-80"
