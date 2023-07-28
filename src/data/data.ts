@@ -4,8 +4,8 @@ export const projects = [
     title: "Estudio FEO",
     description:
       "FEO es una plataforma de fomento, formación, exhibición y comercialización de pequeñas y grandes marcas nacionales e internacionales.",
-    frontend: ["React", "JavaScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
+    frontend: ["React", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
     image: "./images/feo.webp",
     url: "https://estudiofeo-2.vercel.app/",
   },
@@ -15,7 +15,7 @@ export const projects = [
     description:
       "Espacio de arte dedicado a la difusión de artistas tanto noveles como consagrados. Desde 2008 presenta exhibiciones de forma continua",
     frontend: ["Next.js", "TypeScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
+    backend: ["PHP", "Flight", "MySql"],
     image: "./images/mite.webp",
     url: "https://mite-bay.vercel.app/",
   },
@@ -25,7 +25,7 @@ export const projects = [
     description:
       "Empresa jujeña dedicada al desarrollo y construcción de obras civiles dentro de los sectores público y privado.",
     frontend: ["React", "TypeScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
+    backend: ["PHP", "Flight", "MySql"],
     image: "./images/wichay.webp",
     url: "https://wichay.vercel.app/",
   },
@@ -35,7 +35,7 @@ export const projects = [
     description:
       "Mini complejo turístico que fusiona el estilo colonial con el moderno que ofrece una estadía plancentera. Ubicado en Cerrillos, Salta, Argentina.",
     frontend: ["React", "TypeScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
+    backend: ["PHP", "Flight", "MySql"],
     image: "./images/palmares.webp",
     url: "http://palmareshousing.com.ar/",
   },
@@ -44,14 +44,24 @@ export const projects = [
     title: "Rica Constructora",
     description:
       "Constructora con más de 35 proyectos entregados en tiempo y forma, eligiendo cuidadosamente las mejores ubicaciones de la Ciudad de Salta.",
-    frontend: ["React", "JavaScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
+    frontend: ["React", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
     image: "./images/rica.webp",
     url: "https://riicaconstructora.vercel.app/",
   },
 
   {
     id: 6,
+    title: "IML Tenis",
+    description:
+      "Sistema de fixture y estadisticas para torneo de tenis. Pudiendo modificar toneos, clubes, equipos y jugadores.",
+    frontend: ["React", "Daisiui", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
+    image: "./images/imltenis2.webp",
+    url: "https://imltenis.com.ar/",
+  },
+  {
+    id: 7,
     title: "Premios en Alto",
     description:
       "Ruleta para promoción en shopings. Se puede configurar la cantidad de premios, el tiempo de duración y el número de participaciones.",
