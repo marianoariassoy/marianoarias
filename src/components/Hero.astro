@@ -5,16 +5,19 @@ import { Down } from "../icons/icons";
 <section class="h-screen flex items-center" id="hero">
   <div>
     <h1 class="font-secondary font-black text-6xl lg:text-7xl mb-4">
-      Hello, I am <span class="text-primary">Mariano.</span>
+      Hello, I am <span
+        class="text-primary cursor-pointer hover:blur-md transition-all"
+        >Mariano.</span
+      >
     </h1>
     <h2 class="text-3xl">Fullstack Web Developer</h2>
   </div>
 
-  <div class="absolute bottom-12 left-0 right-0 flex justify-center">
+  <div class="absolute bottom-8 left-0 right-0 flex justify-center">
     <a
       href="#about"
       aria-label="Scroll down"
-      class="scroll text-primary text-3xl transition-all hover:blur-sm"
+      class="fade-in scroll text-primary text-3xl transition-all lg:hover:blur-sm scroll-down"
     >
       <Down />
     </a>

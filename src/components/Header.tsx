@@ -14,12 +14,12 @@ const Header = () => {
   return (
     <div className="py-6 flex items-start justify-between lg:items-center lg:px-4">
       <div
-        className="text-primary cursor-pointer text-xl transition-all hover:blur-sm"
+        className="text-primary cursor-pointer text-xl transition-all lg:hover:blur-sm"
         onClick={changeColor}
       >
         <Heart />
       </div>
-      <div className="flex flex-col gap-y-4 items-end gap-x-16 lg:flex-row lg:items-center">
+      <div className="flex gap-y-4 gap-x-16 items-center">
         <nav className="text-primary font-secondary flex gap-x-4 lg:gap-x-16">
           {nav.map((item) => (
             <a
@@ -31,7 +31,7 @@ const Header = () => {
             </a>
           ))}
         </nav>
-        <div className="flex gap-x-4">
+        <div className="gap-x-4 hidden lg:flex">
           <a
             href="https://github.com/marianoariassoy"
             target="_blank"
