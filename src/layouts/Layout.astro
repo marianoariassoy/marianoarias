@@ -8,20 +8,29 @@ import Footer from "../components/Footer";
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Más de 20 años en el área del desarrollo web freelance y más de 500
+    proyectos realizados en distintas tecnologías a través de los años."
+    />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
     <meta name="generator" content={Astro.generator} />
     <title>Mariano Arias</title>
-    <meta property="og:url" content="" />
-    <meta property="og:image" content=" " />
-    <meta property="og:image:alt" content="Mariano Arias" />
-    <link rel="canonical" href="" />
-    <meta name="description" content="" />
+    <meta property="og:url" content="http://marianoarias.soy" />
+    <link rel="canonical" href="http://marianoarias.soy" />
+    <meta
+      name="description"
+      content="Más de 20 años en el área del desarrollo web freelance y más de 500
+    proyectos realizados en distintas tecnologías a través de los años."
+    />
     <meta name="title" content="Mariano Arias" />
     <meta property="og:title" content="Mariano Arias" />
-    <meta property="og:description" content="" />
+    <meta
+      property="og:description"
+      content="Más de 20 años en el área del desarrollo web freelance y más de 500
+    proyectos realizados en distintas tecnologías a través de los años."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Mariano Arias" />
     <meta name="theme-color" content="#000" />
@@ -34,17 +43,18 @@ import Footer from "../components/Footer";
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700;900&family=Manrope&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700;900&family=Manrope&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="fixed left-0 px-8 w-full z-40">
       <Header client:only />
     </header>
-
     <main class="m-auto max-w-6xl px-8">
       <slot />
     </main>
-
     <footer class="m-auto max-w-6xl px-8">
       <Footer client:load />
     </footer>
