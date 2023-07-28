@@ -2,57 +2,32 @@ export const projects = [
   {
     id: 1,
     title: "Estudio FEO",
-    description: "FEO es una plataforma de fomento, formación, exhibición y comercialización de pequeñas y grandes marcas nacionales e internacionales.",
+    description:
+      "FEO es una plataforma de fomento, formación, exhibición y comercialización de pequeñas y grandes marcas nacionales e internacionales.",
     frontend: ["React", "JavaScript", "Tailwind"],
     backend: ["PHP", "MySql"],
-    image: "https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "./images/feo-2.jpg",
     url: "https://estudiofeo-2.vercel.app/",
   },
   {
     id: 3,
     title: "Mite Galería",
-    description: "Espacio de arte dedicado a la difusión de artistas tanto noveles como consagrados.",
+    description:
+      "Espacio de arte dedicado a la difusión de artistas tanto noveles como consagrados. Desde 2008 presenta exhibiciones de forma continua",
     frontend: ["Next.js", "TypeScript", "Tailwind"],
     backend: ["PHP", "MySql"],
-    image: "https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "./images/mite.jpg",
     url: "https://mite-bay.vercel.app/",
   },
   {
     id: 2,
     title: "Wichay",
-    description: "Empresa jujeña dedicada al desarrollo y construcción de obras civiles dentro de los sectores público y privado.",
+    description:
+      "Empresa jujeña dedicada al desarrollo y construcción de obras civiles dentro de los sectores público y privado.",
     frontend: ["React", "TypeScript", "Tailwind"],
     backend: ["PHP", "MySql"],
-    image: "https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "./images/wichay.jpg",
     url: "https://wichay.vercel.app/",
-  },
-
-  {
-    id: 4,
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, nostrum esse provident laborum est hic et voluptas. ",
-    frontend: ["Astro", "TypeScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
-    image: "https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    url: "",
-  },
-  {
-    id: 5,
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, nostrum esse provident laborum est hic et voluptas. ",
-    frontend: ["Astro", "TypeScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
-    image: "https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    url: "",
-  },
-  {
-    id: 6,
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, nostrum esse provident laborum est hic et voluptas. ",
-    frontend: ["Astro", "TypeScript", "Tailwind"],
-    backend: ["PHP", "MySql"],
-    image: "https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    url: "",
   },
 ];
 
@@ -83,7 +58,7 @@ export const links = [
   {
     id: 1,
     title: "Linkedln",
-    url: "www.linkedin.com/in/marianoariassoy",
+    url: "https://www.linkedin.com/in/marianoariassoy",
   },
   {
     id: 2,
@@ -107,6 +82,16 @@ export const links = [
   },
   {
     id: 6,
+    title: "Photography",
+    url: "http://www.marianoarias.soy/photography",
+  },
+  {
+    id: 7,
+    title: "CV",
+    url: "",
+  },
+  {
+    id: 8,
     title: "Email",
     url: "mailto:hola@marianoarias.soy",
   },
