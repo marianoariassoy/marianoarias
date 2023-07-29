@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <section className="lg:px-32 " id="contact">
       <h3 className="text-primary text-3xl mb-16 font-secondary font-bold text-center">
-        Contact.
+        Contacto.
       </h3>
       <div className="text-primary text-xl flex flex-wrap lg:grid lg:grid-cols-4 gap-x-8 gap-y-16 mb-32 ">
         {links.map((link) => (
@@ -26,11 +26,11 @@ const Footer = () => {
       </div>
       <div className="text-center pb-12 font-bold">
         <a href="#hero" className="scroll font-bold underline-2">
-          Back to top
+          Volver arriba
         </a>
       </div>
       <div className="text-center pb-12 text-sm">
-        © 2023 Mariano Arias. All rights reserved
+        © 2023 Mariano Arias. Buenos Aires, Argentina.
       </div>
     </section>
   );

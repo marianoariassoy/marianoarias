@@ -75,19 +75,19 @@ export const projects = [
 export const nav = [
   {
     id: 1,
-    title: "About",
+    title: "Hola",
     title_en: "About",
     path: "#about",
   },
   {
     id: 2,
-    title: "Projects",
+    title: "Proyectos",
     title_en: "Projects",
     path: "#projects",
   },
   {
     id: 3,
-    title: "Contact",
+    title: "Contacto",
     title_en: "Contact",
     path: "#contact",
   },

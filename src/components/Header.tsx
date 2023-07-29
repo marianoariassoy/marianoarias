@@ -19,8 +19,8 @@ const Header = () => {
       >
         <Heart />
       </div>
-      <div className="flex gap-y-4 gap-x-16 items-center">
-        <nav className="text-primary font-secondary flex gap-x-4 lg:gap-x-16">
+      <div className="flex gap-y-4 gap-x-14 items-center">
+        <nav className="text-primary font-secondary flex gap-x-4 lg:gap-x-14">
           {nav.map((item) => (
             <a
               href={item.path}
