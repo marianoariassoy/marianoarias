@@ -15,7 +15,7 @@ const Projects = () => {
       </div>
 
       <div className="text-center">
-        <button className="font-bold mt-20 underline-2">Show more</button>
+        <button className="font-bold mt-20 underline-2">More soon</button>
       </div>
     </section>
   );

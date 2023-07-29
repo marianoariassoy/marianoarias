@@ -15,8 +15,8 @@ const scroll = () => {
     });
   }
 
+  const posicionDesaparicion = (window.innerHeight / 2) as number;
   const scrollDown = document.querySelector(".scroll-down") as HTMLElement;
-  const posicionDesaparicion = 100;
 
   window.addEventListener("scroll", function () {
     let scrollPosY = document.documentElement.scrollTop;
