@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Estudio FEO",
     description:
-      "FEO es una plataforma de fomento, formación, exhibición y comercialización de pequeñas y grandes marcas nacionales e internacionales.",
+      "FEO is a platform for the development, training, exhibition and marketing of small and large national and international brands.",
     frontend: ["React", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/feo.webp",
@@ -13,7 +13,7 @@ export const projects = [
     id: 2,
     title: "Mite Galería",
     description:
-      "Espacio de arte dedicado a la difusión de artistas tanto noveles como consagrados. Desde 2008 presenta exhibiciones de forma continua",
+      "Art space dedicated to the dissemination of both new and established artists. Since 2008 it presents exhibitions continuously.",
     frontend: ["Next.js", "TypeScript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/mite.webp",
@@ -23,7 +23,7 @@ export const projects = [
     id: 3,
     title: "Wichay",
     description:
-      "Empresa jujeña dedicada al desarrollo y construcción de obras civiles dentro de los sectores público y privado.",
+      "Jujuy company dedicated to the development and construction of civil works within the public and private sectors.",
     frontend: ["React", "TypeScript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/wichay.webp",
@@ -33,7 +33,7 @@ export const projects = [
     id: 4,
     title: "Palmares Housing",
     description:
-      "Mini complejo turístico que fusiona el estilo colonial con el moderno que ofrece una estadía plancentera. Ubicado en Cerrillos, Salta, Argentina.",
+      "Mini tourist complex that fuses the colonial style with the modern that offers a pleasant stay. Located in Cerrillos, Salta, Argentina.",
     frontend: ["React", "TypeScript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/palmares.webp",
@@ -43,7 +43,7 @@ export const projects = [
     id: 5,
     title: "Rica Constructora",
     description:
-      "Constructora con más de 35 proyectos entregados en tiempo y forma, eligiendo cuidadosamente las mejores ubicaciones de la Ciudad de Salta.",
+      "Construction company with more than 35 projects delivered in a timely manner, carefully choosing the best locations in the City of Salta.",
     frontend: ["React", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/rica.webp",
@@ -54,7 +54,7 @@ export const projects = [
     id: 6,
     title: "IML Tenis",
     description:
-      "Sistema de fixture y estadisticas para torneo de tenis. Pudiendo modificar toneos, clubes, equipos y jugadores.",
+      "Fixture system and statistics for tennis tournament. Being able to modify tournaments, clubs, teams and players.",
     frontend: ["React", "Daisiui", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/imltenis2.webp",
@@ -64,7 +64,7 @@ export const projects = [
     id: 7,
     title: "Premios en Alto",
     description:
-      "Ruleta para promoción en shopings. Se puede configurar la cantidad de premios, el tiempo de duración y el número de participaciones.",
+      "Roulette for promotion in shopings. You can configure the number of prizes, the duration and the number of participations.",
     frontend: ["Typescript", "CSS"],
     backend: [],
     image: "./images/ruleta.webp",
@@ -75,19 +75,19 @@ export const projects = [
 export const nav = [
   {
     id: 1,
-    title: "Hola",
+    title: "About",
     title_en: "About",
     path: "#about",
   },
   {
     id: 2,
-    title: "Proyectos",
+    title: "Projects",
     title_en: "Projects",
     path: "#projects",
   },
   {
     id: 3,
-    title: "Contacto",
+    title: "Contact",
     title_en: "Contact",
     path: "#contact",
   },
