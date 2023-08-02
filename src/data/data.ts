@@ -4,7 +4,7 @@ export const projects = [
     title: "Estudio FEO",
     description:
       "FEO is a platform for the development, training, exhibition and marketing of small and large national and international brands.",
-    frontend: ["React", "Tailwind"],
+    frontend: ["React", "Vite", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/feo.webp",
     url: "https://estudiofeo-2.vercel.app/",
@@ -17,14 +17,14 @@ export const projects = [
     frontend: ["Next.js", "TypeScript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/mite.webp",
-    url: "https://mite-bay.vercel.app/",
+    url: "https://mite-seven.vercel.app/",
   },
   {
     id: 3,
     title: "Wichay",
     description:
       "Jujuy company dedicated to the development and construction of civil works within the public and private sectors.",
-    frontend: ["React", "TypeScript", "Tailwind"],
+    frontend: ["React", "Vite", "TypeScript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/wichay.webp",
     url: "https://wichay.vercel.app/",
@@ -34,7 +34,7 @@ export const projects = [
     title: "Palmares Housing",
     description:
       "Mini tourist complex that fuses the colonial style with the modern that offers a pleasant stay. Located in Cerrillos, Salta, Argentina.",
-    frontend: ["React", "TypeScript", "Tailwind"],
+    frontend: ["React", "Vite", "TypeScript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/palmares.webp",
     url: "http://palmareshousing.com.ar/",
@@ -44,7 +44,7 @@ export const projects = [
     title: "Rica Constructora",
     description:
       "Construction company with more than 35 projects delivered in a timely manner, carefully choosing the best locations in the City of Salta.",
-    frontend: ["React", "Tailwind"],
+    frontend: ["React", "Vite", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/rica.webp",
     url: "https://riicaconstructora.vercel.app/",
@@ -55,7 +55,7 @@ export const projects = [
     title: "IML Tenis",
     description:
       "Fixture system and statistics for tennis tournament. Being able to modify tournaments, clubs, teams and players.",
-    frontend: ["React", "Daisiui", "Tailwind"],
+    frontend: ["React", "Vite", "Daisiui", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
     image: "./images/imltenis2.webp",
     url: "https://imltenis.com.ar/",
@@ -65,7 +65,7 @@ export const projects = [
     title: "Premios en Alto",
     description:
       "Roulette for promotion in shopings. You can configure the number of prizes, the duration and the number of participations.",
-    frontend: ["Typescript", "CSS"],
+    frontend: ["React", "Vite", "Typescript", "CSS"],
     backend: [],
     image: "./images/ruleta.webp",
     url: "https://ruleta-beige.vercel.app/",
