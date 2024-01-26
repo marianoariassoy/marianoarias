@@ -1,6 +1,14 @@
 export const projects = [
   {
-    id: 1,
+    title: "Salta Set",
+    description:
+      "A program of the Government of the Province of Salta whose mission is to promote audiovisual productions..",
+    frontend: ["React", "Typescript", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
+    image: "./images/saltaset.webp",
+    url: "https://saltaset.gob.ar/",
+  },
+  {
     title: "Estudio FEO",
     description:
       "FEO is a platform for the development, training, exhibition and marketing of small and large national and international brands.",
@@ -10,17 +18,33 @@ export const projects = [
     url: "https://estudiofeo-2.vercel.app/",
   },
   {
-    id: 2,
-    title: "Mite Galería",
+    title: "La Céfira",
     description:
-      "Art space dedicated to the dissemination of both new and established artists. Since 2008 it presents exhibitions continuously.",
-    frontend: ["Next.js", "TypeScript", "Tailwind"],
+      "Family-owned Italian-style pasta factory with sales outlets throughout Argentina.",
+    frontend: ["React", "Typescript", "Tailwind"],
     backend: ["PHP", "Flight", "MySql"],
-    image: "./images/mite.webp",
-    url: "https://mite-seven.vercel.app/",
+    image: "./images/lecefira.webp",
+    url: "https://lacefira.vercel.app/",
   },
   {
-    id: 3,
+    title: "Austral",
+    description:
+      "Company dedicated to air conditioning with more than 20 years of experience in the sector.",
+    frontend: ["React", "Typescript", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
+    image: "./images/austral-2.webp",
+    url: "http://australclimatizacion.com/",
+  },
+  {
+    title: "DUX Propiedades",
+    description:
+      "Sale and rental of real estate. Based in the city of Salta, Argentina.",
+    frontend: ["PHP", "JavaScript", "SCSS"],
+    backend: ["PHP", "MySql"],
+    image: "./images/dux.webp",
+    url: "http://www.duxpropiedades.com.ar",
+  },
+  {
     title: "Wichay",
     description:
       "Jujuy company dedicated to the development and construction of civil works within the public and private sectors.",
@@ -30,7 +54,16 @@ export const projects = [
     url: "https://wichay.vercel.app/",
   },
   {
-    id: 4,
+    title: "IML Tenis",
+    description:
+      "Fixture system and statistics for tennis tournament. Being able to modify tournaments, clubs, teams and players.",
+    frontend: ["React", "Daisiui", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
+    image: "./images/imltenis2024.webp",
+    url: "https://imltenis.com.ar/",
+  },
+
+  {
     title: "Palmares Housing",
     description:
       "Mini tourist complex that fuses the colonial style with the modern that offers a pleasant stay. Located in Cerrillos, Salta, Argentina.",
@@ -40,7 +73,15 @@ export const projects = [
     url: "http://palmareshousing.com.ar/",
   },
   {
-    id: 5,
+    title: "Mite Galería",
+    description:
+      "Art space dedicated to the dissemination of both new and established artists. Since 2008 it presents exhibitions continuously.",
+    frontend: ["Next.js", "TypeScript", "Tailwind"],
+    backend: ["PHP", "Flight", "MySql"],
+    image: "./images/mite.webp",
+    url: "https://mite-seven.vercel.app/",
+  },
+  {
     title: "Rica Constructora",
     description:
       "Construction company with more than 35 projects delivered in a timely manner, carefully choosing the best locations in the City of Salta.",
@@ -49,26 +90,23 @@ export const projects = [
     image: "./images/rica.webp",
     url: "https://riicaconstructora.vercel.app/",
   },
-
   {
-    id: 6,
-    title: "IML Tenis",
-    description:
-      "Fixture system and statistics for tennis tournament. Being able to modify tournaments, clubs, teams and players.",
-    frontend: ["React", "Vite", "Daisiui", "Tailwind"],
-    backend: ["PHP", "Flight", "MySql"],
-    image: "./images/imltenis2.webp",
-    url: "https://imltenis.com.ar/",
-  },
-  {
-    id: 7,
     title: "Premios en Alto",
     description:
-      "Roulette for promotion in shopings. You can configure the number of prizes, the duration and the number of participations.",
-    frontend: ["React", "Vite", "Typescript", "CSS"],
-    backend: [],
+      "Roulette for promotion in shopings. You can configure the number of prizes, the duration and the number of participations. ",
+    frontend: ["Preact", "Vite", "Typescript", "CSS"],
+    backend: ["PHP", "MySql"],
     image: "./images/ruleta.webp",
     url: "https://ruleta-beige.vercel.app/",
+  },
+  {
+    title: "Exincor",
+    description:
+      "Company dedicated to the manufacture of boxes and cardboard packaging.",
+    frontend: ["PHP", "CSS"],
+    backend: ["PHP", "MySql"],
+    image: "./images/exincor.webp",
+    url: "https://exincor.com.ar/",
   },
 ];
 

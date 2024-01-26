@@ -17,7 +17,7 @@ const Article = ({ project }) => {
           height="190"
           src={project.image}
           alt={project.title}
-          className="w-full object-center object-cover aspect-video opacity-80"
+          className="w-full object-center object-cover aspect-[16/9] opacity-100"
         />
       </a>
       <div>

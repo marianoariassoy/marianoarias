@@ -7,6 +7,8 @@ const Footer = () => {
     scroll();
   }, []);
 
+  const year = new Date().getFullYear();
+
   return (
     <section className="lg:px-32 " id="contact">
       <h3 className="text-primary text-3xl mb-16 font-secondary font-bold text-center">
@@ -30,7 +32,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text-center pb-12 text-sm">
-        © 2023 Mariano Arias. Buenos Aires, Argentina.
+        © {year} Mariano Arias. Buenos Aires, Argentina.
       </div>
     </section>
   );
